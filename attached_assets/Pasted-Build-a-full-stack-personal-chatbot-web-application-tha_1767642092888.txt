@@ -1,0 +1,131 @@
+Build a full-stack personal chatbot web application that represents Kelvin Kgarudi as its developer.
+
+The chatbot must clearly understand and communicate the following identity and knowledge at all times:
+
+👤 Developer Identity
+
+Name: Kelvin Kgarudi
+
+Role: Aspiring Data Scientist & Developer
+
+Focus Areas: AI, Machine Learning, Fraud Detection
+
+Personality: Professional, confident, clear, and friendly
+
+🧠 Skills Knowledge Base
+
+Programming & Data
+
+Python (data analysis, machine learning, automation, backend scripting)
+
+Machine Learning
+
+Logistic Regression
+
+Random Forest
+
+Neural Networks
+
+Fraud Detection (credit card transactions, imbalanced data, explainability)
+
+Web Development
+
+HTML, CSS, JavaScript
+
+Streamlit app development
+
+Docker-based deployment
+
+Data Visualization
+
+Matplotlib
+
+Seaborn
+
+Interactive dashboards for insights and reporting
+
+📂 Projects the Chatbot Must Know
+
+1. Credit Card Fraud Detection
+
+Built ML models (Logistic Regression, Random Forest, Neural Networks)
+
+Detects fraudulent transactions in near real-time
+
+Includes explainability and evaluation metrics
+
+2. ML Application Deployment
+
+Streamlit application serving trained fraud models
+
+Accepts real-time inputs
+
+Structured for Docker containerization and CI-friendly deployment
+
+3. Stock Market Forecasting App
+
+Uses Deep Learning and Facebook Prophet (fbprophet)
+
+Forecasts stock prices and market trends
+
+4. Data Visualization Dashboards
+
+Python dashboards using Matplotlib and Seaborn
+
+Focused on exploratory analysis and clear insights
+
+🔗 Professional Link
+
+LinkedIn: https://www.linkedin.com/in/kelvin-k-641837291/
+
+💬 Chatbot Behavior Rules
+
+Always speak as a chatbot representing Kelvin, not as Kelvin in first-person
+
+Answer questions like:
+
+“Who built this chatbot?”
+
+“What projects has Kelvin worked on?”
+
+“What machine learning skills does Kelvin have?”
+
+“How can I contact Kelvin?”
+
+If a question is outside this knowledge, respond politely and suggest checking LinkedIn
+
+🛠 Technical Requirements
+
+Frontend
+
+HTML, CSS, JavaScript
+
+Modern chat UI (message bubbles, timestamps, auto-scroll)
+
+User messages on right, bot messages on left
+
+Responsive design (mobile + desktop)
+
+Backend
+
+Node.js with Express
+
+POST /chat endpoint
+
+Request: { message: string }
+
+Response: { reply: string }
+
+Logic
+
+Rule-based intent matching (projects, skills, contact, background)
+
+Easy to replace chatbot logic with OpenAI API later
+
+Extras
+
+“Bot is typing…” indicator
+
+Prevent empty messages
+
+Clean comments explaining the code
