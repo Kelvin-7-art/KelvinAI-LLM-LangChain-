@@ -1,13 +1,8 @@
-import type { Express } from "express";
-import { createServer, type Server } from "http";
-import { registerChatRoutes } from "./replit_integrations/chat";
+import express from "express";
+import chatRouter from "./replit_integrations/chat/routes.ts";
 
-export async function registerRoutes(
-  httpServer: Server,
-  app: Express
-): Promise<Server> {
-  // Register chat integration routes
-  registerChatRoutes(app);
+const router = express.Router();
 
-  return httpServer;
-}
+router.use("/chat", chatRouter);
+
+export default router;

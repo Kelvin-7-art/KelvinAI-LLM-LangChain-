@@ -22,7 +22,7 @@ export default function Home() {
           
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight text-foreground">
-              Welcome to <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">AI Chat</span>
+              Welcome to <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">KelvinAI</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
               Your intelligent assistant for coding, writing, and creative problem solving.
